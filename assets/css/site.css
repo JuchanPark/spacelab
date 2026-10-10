@@ -156,12 +156,9 @@ img { max-width: 100%; }
 :root[data-theme="dark"] .lab-logo-mark--light { display: none; }
 :root[data-theme="dark"] .lab-logo-mark--dark { display: block; }
 .wordmark {
-  font-family: "Space Mono", "Courier New", Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-weight: 700;
-  /* Space Mono renders noticeably larger than Courier New at the same
-     size, so this is scaled to ~0.8x the old Courier New sizes (all three
-     breakpoints below) to keep the same visual weight against the logo. */
-  font-size: 1.76rem;
+  font-size: 2.2rem;
   line-height: 1;
   letter-spacing: 0.01em;
   text-decoration: none;
@@ -172,11 +169,11 @@ img { max-width: 100%; }
      as the desktop sizes, so the hexagon-to-baseline alignment holds. */
   .brand-row { gap: 0.45rem; }
   .lab-logo-mark { height: 1.93rem; margin-bottom: -0.33rem; }
-  .wordmark { font-size: 1.02rem; }
+  .wordmark { font-size: 1.28rem; }
 }
 @media (max-width: 360px) {
   .lab-logo-mark { height: 1.6rem; margin-bottom: -0.27rem; }
-  .wordmark { font-size: 0.85rem; }
+  .wordmark { font-size: 1.06rem; }
 }
 .nav-row {
   display: flex;
