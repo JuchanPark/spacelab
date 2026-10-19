@@ -166,6 +166,10 @@
   .award-item:last-of-type { border-bottom: none; }
   .award-item .org { color: var(--ink-muted); }
 
+  /* Current members */
+  .member-profile { margin-bottom: 2.5rem; }
+  .member-profile .pi-photos { max-width: 24rem; }
+
   /* Recruiting cards (Members tab) */
   .join-note {
     font-size: 0.98rem;
@@ -339,7 +343,18 @@
     </section>
 
     <section class="tab-panel" id="tab-members" role="tabpanel">
-      <p class="join-note">SPACE Lab is recruiting its founding members for 2026. If you're interested in genome engineering, generative AI for cell engineering, or hPSC-based disease modeling, we'd love to hear from you — reach out at <a href="mailto:jcpark9212@kaist.ac.kr">jcpark9212@kaist.ac.kr</a>.</p>
+      <article class="pi-profile member-profile">
+        <div class="pi-photos">
+          <img class="pi-photo" src="assets/images/hanju-kim-formal.jpg" alt="Hanju Kim, formal portrait" loading="lazy">
+          <img class="pi-photo" src="assets/images/hanju-kim-candid.jpg" alt="Hanju Kim, candid portrait" loading="lazy">
+        </div>
+        <div>
+          <h2 class="pi-name">Hanju Kim</h2>
+          <p class="pi-title">M.S.&ndash;Ph.D. Student</p>
+          <p class="pi-affil">Joined September 2026</p>
+        </div>
+      </article>
+      <p class="join-note">SPACE Lab is welcoming new members. If you're interested in genome engineering, generative AI for cell engineering, or hPSC-based disease modeling, we'd love to hear from you — reach out at <a href="mailto:jcpark9212@kaist.ac.kr">jcpark9212@kaist.ac.kr</a>.</p>
       <div class="open-positions">
         <div class="open-card">
           <span class="open-mark">+</span>
